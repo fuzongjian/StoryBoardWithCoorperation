@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hWl-Tw-mOW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--zong-->
+        <scene sceneID="dPH-2i-acb">
+            <objects>
+                <navigationController id="hWl-Tw-mOW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="zong" image="going" selectedImage="going-hl" id="iUz-As-YCA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dxq-zz-zUO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wWt-BZ-ifq" kind="relationship" relationship="rootViewController" id="Pw6-TV-AIE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gau-bw-yWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="412"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="8kV-Ep-umI">
+            <objects>
+                <viewController id="wWt-BZ-ifq" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="95r-RD-0wD"/>
+                        <viewControllerLayoutGuide type="bottom" id="SMG-uD-O8I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="byx-Ys-DAH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jah-Yg-nnw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dMY-D0-LPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="412"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="going" width="20" height="20"/>
+        <image name="going-hl" width="20" height="20"/>
+    </resources>
+</document>
